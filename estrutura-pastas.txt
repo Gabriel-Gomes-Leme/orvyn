@@ -1,0 +1,21 @@
+src/
+├── app/
+│   ├── (auth)/
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   └── register/
+│   │       └── page.tsx
+│   ├── dashboard/
+│   │   └── page.tsx
+│   ├── auth/
+│   │   └── callback/
+│   │       └── route.ts
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   └── layout/
+└── lib/
+    └── supabase/
+        ├── client.ts
+        └── server.ts
